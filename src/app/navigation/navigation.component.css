@@ -1,0 +1,79 @@
+.tab-collection-container {
+  background-color: rgba(255, 255, 255, .6);
+  z-index: 101;
+  position: static;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  height: 45px;
+}
+
+.tab-collection {
+  width: 1160px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.tab-collection-left {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.tab-collection-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 45px;
+  color: #008a00;
+  font-family: wf_segoe-ui, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.tab-collection .tab.tabactive {
+  background-color: #e2165e;
+  color: #fff;
+  animation-name: menu-link-fade;
+  animation-duration: .4s;
+  animation-timing-function: ease;
+  font-family: wf_segoe-ui, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-weight: 600;
+  outline: none;
+}
+
+.tab-collection .tab.tabactive:visited {
+  color: #fff;
+}
+
+.tab-collection .tab {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  float: left;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  min-width: 140px;
+  padding: 0 16px;
+  font-family: wf_segoe-ui, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-weight: 600;
+  border-right: 1px solid #eee;
+}
+
+.tab-collection .tab {
+  color: #000;
+}
+
+.publish-extensions:visited {
+  color: #1163f0;
+}
+
+a:visited {
+  color: #0078d7;
+}
+
+.publish-extensions {
+  color: #1163f0;
+}

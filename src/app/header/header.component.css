@@ -1,0 +1,88 @@
+.uxservices-header #ux-header {
+  position: static;
+  margin-left: 0 !important;
+  min-width: 1250px;
+  font-size: 1.077em;
+  width: 100%;
+  top: 0;
+  z-index: 101;
+}
+
+.uxservices-header #ux-header div.upperBand {
+  height: 34px;
+}
+
+.uxservices-header #ux-header div.upperBand {
+  background-color: #000;
+  color: #fff;
+  line-height: 14px;
+  line-height: 17px;
+}
+
+.uxservices-header #ux-header div.upperBandContent {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1160px;
+  padding: 0;
+}
+
+.uxservices-header .upperBandContent.marketplace-header {
+  display: block;
+}
+
+.uxservices-header #ux-header div.upperBandContent .left {
+  height: 34px;
+  padding: 5px 0 0 0;
+}
+
+.uxservices-header #ux-header div.upperBandContent .left {
+  float: left;
+}
+
+uxservices-header #ux-header .marketPlaceLogoLink {
+  white-space: pre;
+  font-size: 16px;
+  line-height: 16px;
+  vertical-align: -4px;
+  display: inline-block;
+  color: #fff;
+}
+
+bowtie-icon,
+.bowtie>i,
+.bowtie-fabric>i,
+.bowtie-fabric .bowtie-icon {
+  font-family: "Bowtie";
+  font-size: 14px;
+  /*speak: none;*/
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: center;
+  text-decoration: none;
+  line-height: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.uxservices-header #ux-header .visualStudioLogoLink {
+  white-space: pre;
+  font-size: 14px;
+  line-height: 16px;
+  vertical-align: -4px;
+  display: inline-block;
+  color: #fff;
+  font-family: wf_segoe-ui_light;
+}
+
+.uxservices-header #ux-header .marketPlaceLogoLink {
+  white-space: pre;
+  font-size: 16px;
+  line-height: 16px;
+  vertical-align: -4px;
+  display: inline-block;
+  color: #fff;
+}
